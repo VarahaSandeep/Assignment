@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  width: 30%;
+  background: #f0f0f0;
+}
+
+.right {
+  width: 70%;
+  padding: 20px;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
